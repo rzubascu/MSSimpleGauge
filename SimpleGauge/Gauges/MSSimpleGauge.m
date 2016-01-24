@@ -61,7 +61,7 @@
     _containerLayer = [CALayer layer];
     _containerLayer.frame = CGRectMake(0, 0, width, height);
     [self.layer insertSublayer:_containerLayer atIndex:0];
-    [self setupArcLayers];
+//    [self setupArcLayers];
 }
 
 - (void)awakeFromNib
